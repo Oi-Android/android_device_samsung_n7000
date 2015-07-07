@@ -22,7 +22,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),n7000)
+ifeq ($(TARGET_DEVICE),n7000 GT-N7000 )
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
